@@ -1,0 +1,7 @@
+name = permission_create_bug_7_36
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = node
+features[features_api][] = api:2
+features[user_permission][] = create bug_7_36 content
