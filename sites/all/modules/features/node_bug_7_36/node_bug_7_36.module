@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the node_bug_7_36 feature.
+ */
+
+include_once 'node_bug_7_36.features.inc';
