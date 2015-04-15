@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * permission_create_bug_7_36.features.user_permission.inc
+ * permission_create.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function permission_create_bug_7_36_user_default_permissions() {
+function permission_create_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create article content'.
@@ -25,6 +25,17 @@ function permission_create_bug_7_36_user_default_permissions() {
   $permissions['create bug_7_36 content'] = array(
     'name' => 'create bug_7_36 content',
     'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create page content'.
+  $permissions['create page content'] = array(
+    'name' => 'create page content',
+    'roles' => array(
+      'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
