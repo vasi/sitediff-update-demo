@@ -1,4 +1,4 @@
-name = node_bug_7_36
+name = node_lorem
 core = 7.x
 package = Features
 dependencies[] = features
@@ -6,5 +6,5 @@ dependencies[] = node
 dependencies[] = text
 features[features_api][] = api:2
 features[field_base][] = body
-features[field_instance][] = node-bug_7_36-body
-features[node][] = bug_7_36
+features[field_instance][] = node-lorem-body
+features[node][] = lorem

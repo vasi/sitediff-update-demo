@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * node_bug_7_36.features.field_base.inc
+ * node_lorem.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function node_bug_7_36_field_default_field_bases() {
+function node_lorem_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'body'

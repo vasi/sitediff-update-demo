@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * node_bug_7_36.features.inc
+ * node_lorem.features.inc
  */
 
 /**
  * Implements hook_node_info().
  */
-function node_bug_7_36_node_info() {
+function node_lorem_node_info() {
   $items = array(
-    'bug_7_36' => array(
-      'name' => t('Bug 7.36'),
+    'lorem' => array(
+      'name' => t('Lorem'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => 'A test content type',
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

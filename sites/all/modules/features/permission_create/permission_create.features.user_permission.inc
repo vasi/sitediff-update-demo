@@ -21,9 +21,9 @@ function permission_create_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create bug_7_36 content'.
-  $permissions['create bug_7_36 content'] = array(
-    'name' => 'create bug_7_36 content',
+  // Exported permission: 'create lorem content'.
+  $permissions['create lorem content'] = array(
+    'name' => 'create lorem content',
     'roles' => array(
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',

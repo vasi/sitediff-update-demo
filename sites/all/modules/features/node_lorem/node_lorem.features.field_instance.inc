@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * node_bug_7_36.features.field_instance.inc
+ * node_lorem.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function node_bug_7_36_field_default_field_instances() {
+function node_lorem_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-bug_7_36-body'
-  $field_instances['node-bug_7_36-body'] = array(
-    'bundle' => 'bug_7_36',
+  // Exported field_instance: 'node-lorem-body'
+  $field_instances['node-lorem-body'] = array(
+    'bundle' => 'lorem',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',

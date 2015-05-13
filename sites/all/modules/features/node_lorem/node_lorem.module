@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the node_lorem feature.
+ */
+
+include_once 'node_lorem.features.inc';
